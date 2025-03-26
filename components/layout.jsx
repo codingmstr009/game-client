@@ -73,34 +73,9 @@ export default function Layout ({ children }) {
 
     return (
 
-        <div>
+        <div className='w-full flex justify-center items-center'>
             
-            <Loader className={`fixed ${loader || config.loader ? 'scale-1 opacity-1 rounded-none' : 'duration-1000 scale-0 opacity-0'} transition-all`}/>
-
-            {
-                !loader &&
-                <div className='w-full main-section pr-[1px]'>
-                
-                    <Chat />
-                    
-                    <Sidebar />
-
-                    <Header />
-
-                    <div className='main-content'>
-
-                        <div className='w-full relative mt-6 lg:mt-8' dir={config.lang === 'ar' ? 'rtl' : 'ltr'}>
-
-                            {children}
-
-                            <Footer />
-
-                        </div>
-
-                    </div>
-
-                </div>
-            }
+            {children}
 
         </div>
 
