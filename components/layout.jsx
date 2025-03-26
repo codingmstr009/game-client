@@ -62,12 +62,12 @@ export default function Layout ({ children }) {
     }, [dispatch]);
     useEffect(() => {
 
-        if ( !config.location ) {
-            navigator.geolocation?.getCurrentPosition(
-                ( position ) => dispatch(actions.toggle_location({latitude: position.coords.latitude, longitude: position.coords.longitude})),
-                ( error ) => {}
-            );
-        }
+        // if ( !config.location ) {
+        //     navigator.geolocation?.getCurrentPosition(
+        //         ( position ) => dispatch(actions.toggle_location({latitude: position.coords.latitude, longitude: position.coords.longitude})),
+        //         ( error ) => {}
+        //     );
+        // }
 
     }, []);
 
