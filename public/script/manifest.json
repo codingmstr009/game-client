@@ -1,0 +1,25 @@
+{
+  "short_name": "Admin Panel - v.0.1.0",
+  "name": "Admin Panel Dashboard Template - @copyright - 2024",
+  "icons": [
+        {
+            "src": "../media/layout/favicon.png",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "../media/layout/logo2.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "../media/layout/logo1.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
